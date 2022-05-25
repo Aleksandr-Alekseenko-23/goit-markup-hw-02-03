@@ -1,0 +1,19 @@
+.logo-color, .study {
+    color: #2196F3;
+}
+.logo {
+    color: #000;
+
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+    text-align: center;
+}
+.hero-button {
+    background: #2196F3;
+    color: #FFFFFF;
+    
+}
