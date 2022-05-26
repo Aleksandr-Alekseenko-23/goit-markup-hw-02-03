@@ -1,9 +1,41 @@
-.logo-color, .study {
+.mine-page {
+    font-family: Roboto, sans-serif;
+}
+.mine-page ul {
+    list-style: none;
+    
+
+}
+.mine-page p {
+    color: #757575;
+}
+.mine-header a {
+    color: #212121;
+    text-decoration: none;
+}
+.logo-color {
+    color: #2196F3;
+}
+.sity-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.sity-nav .study:hover, .study:focus {
+    color: #2196F3;
+}
+.sity-nav .portfolio:visited {
     color: #2196F3;
 }
 .logo {
     color: #000;
-
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .hero {
     background-color: #2F303A;
@@ -15,5 +47,43 @@
 .hero-button {
     background: #2196F3;
     color: #FFFFFF;
+    font-family: inherit;
     
+}
+.sity-cont {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.sity-cont .mail:hover, .mail:focus {
+    color: #2196F3;
+}
+h2, h3 {
+   color:  #212121;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.mine-footer {
+    background-color: #2F303A;
+
+}
+.logo-color-footer {
+    color: #FFFFFF;
+}
+.addres {
+    color: rgba(255, 255, 255, 0.6);
+}
+.button-portfolio {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.button-portfolio :hover, .button-portfolio :focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.content-portfolio a {
+        text-decoration: none;
 }
