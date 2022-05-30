@@ -3,15 +3,26 @@
 }
 .mine-page ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
     
 
 }
 .mine-page p {
     color: #757575;
 }
+.mine-header {
+    background-color: #FFFFFF;
+}
 .mine-header a {
     color: #212121;
     text-decoration: none;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    
 }
 .logo-color {
     color: #2196F3;
@@ -39,6 +50,8 @@ letter-spacing: 0.02em;
 }
 
 .sity-cont {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -50,10 +63,15 @@ letter-spacing: 0.02em;
 
 .hero {
     background-color: #2F303A;
+    text-align: center;
+   
 }
 .hero-title {
+    padding-top: 200px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     color: #FFFFFF;
-    text-align: center;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -62,6 +80,8 @@ letter-spacing: 0.02em;
 
 }
 .hero-button {
+    padding: 10px 32px;
+    margin-bottom: 200px;
     background: #2196F3;
     color: #FFFFFF;
     font-family: inherit;
@@ -69,26 +89,43 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+     
+}
+.information {
+    margin-top: 94px;
+    margin-bottom: 94px;
 
+  
+}
+.benefits {
+   
 }
 
+
 .benefits h3 {
-   color:  #212121;
+     color:  #212121;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    margin-top: 0;
+    margin-bottom: 10px;   
 }
 
 .benefits p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+.work {
+    margin-bottom: 94px;
 }
 .work h2 {
+    margin-top: 94px;
+    margin-bottom: 50px;   
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -98,14 +135,20 @@ letter-spacing: 0.02em;
 
 .team {
     background-color: #F5F4FA;
+   
+    
 }
 .team h2 {
+    margin-top: 94px;
+    margin-bottom: 50px;   
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .team h3 {
+    margin-top: 0;
+    margin-bottom: 0;  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -114,6 +157,8 @@ letter-spacing: 0.02em;
 
 }
 .team p {
+    margin-top: 0;
+    margin-bottom: 0;  
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -122,8 +167,8 @@ letter-spacing: 0.02em;
 }
 .mine-footer {
     background-color: #2F303A;
-
 }
+    
 .logo-color-footer {
     color: #FFFFFF;
 }
