@@ -144,6 +144,8 @@ letter-spacing: 0.02em;
 
 .team {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
    
     
 }
@@ -158,8 +160,8 @@ letter-spacing: 0.02em;
 }
 .team h3 {
     color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;  
+    margin-top: 30px;
+    margin-bottom: 10px;  
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -204,20 +206,26 @@ letter-spacing: 0.02em;
     background-color: #2196F3;
     color: #FFFFFF;
 }
-
+.content-portfolio {
+   
+}
 .content-portfolio a {
         text-decoration: none;
+        
 }
 .content-portfolio h2 {
     color: #212121;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .content-portfolio p {
     color: #757575;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
