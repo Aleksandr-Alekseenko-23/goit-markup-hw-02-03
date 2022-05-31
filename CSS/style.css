@@ -1,5 +1,6 @@
 .mine-page {
     font-family: Roboto, sans-serif;
+    color: #757575;
 }
 .mine-page ul {
     list-style: none;
@@ -8,9 +9,7 @@
     
 
 }
-.mine-page p {
-    color: #757575;
-}
+
 .mine-header {
     background-color: #FFFFFF;
 }
@@ -36,7 +35,7 @@ letter-spacing: 0.02em;
 .sity-nav .study:hover, .study:focus {
     color: #2196F3;
 }
-.sity-nav .portfolio:visited {
+.sity-nav .portfolio:hover, .portfolio:focus, .portfolio:active {
     color: #2196F3;
 }
 .logo {
@@ -47,6 +46,14 @@ letter-spacing: 0.02em;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+.mail {
+    color: inherit;
+    text-decoration: none;
+}
+.tel {
+    color: inherit;
+    text-decoration: none;
 }
 
 .sity-cont {
@@ -89,6 +96,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
      
 }
 .information {
@@ -124,6 +132,7 @@ letter-spacing: 0.02em;
     margin-bottom: 94px;
 }
 .work h2 {
+    color: #212121;
     margin-top: 94px;
     margin-bottom: 50px;   
     font-size: 36px;
@@ -139,6 +148,7 @@ letter-spacing: 0.02em;
     
 }
 .team h2 {
+    color: #212121;
     margin-top: 94px;
     margin-bottom: 50px;   
     font-size: 36px;
@@ -147,6 +157,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
 }
 .team h3 {
+    color: #212121;
     margin-top: 0;
     margin-bottom: 0;  
     font-weight: 500;
@@ -187,7 +198,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-
+    cursor: pointer;
 }
 .button-portfolio :hover, .button-portfolio :focus {
     background-color: #2196F3;
@@ -205,7 +216,8 @@ letter-spacing: 0.02em;
 
 }
 .content-portfolio p {
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
