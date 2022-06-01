@@ -252,13 +252,17 @@
     text-align: center;
     
 }
+.button {
+    
+   
+}
 .button-portfolio .button + .button {
     margin-left: 30px;
 }
 .button-portfolio button {
     margin-top: 100px;
     margin-bottom: 56px;
-    
+    border: none;
     background-color: #F5F4FA;
     color: #212121;
     font-family: inherit;
