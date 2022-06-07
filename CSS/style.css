@@ -130,7 +130,7 @@
 }
 .hero-button {
     padding: 10px 32px;
-    margin-bottom: 200px;
+    margin-bottom: 0px;
     background: #2196F3;
     color: #FFFFFF;
     font-family: inherit;
@@ -145,12 +145,7 @@
     background-color: #188CE8;
 }
 
-.information {
-    margin-top: 94px;
-    margin-bottom: 94px;
-    
-  
-}
+
 .benefits {
    display: flex;
    padding-left: 0;
@@ -301,9 +296,7 @@
 }
 .button-portfolio button {
     padding: 6px 22px;
-    
-    
-    
+     
     border: none;
     background-color: #F5F4FA;
     color: #212121;
@@ -328,7 +321,7 @@
         
        
 }
-.content-portfolio h2 {
+.content-items h2 {
     color: #212121;
     font-size: 18px;
     line-height: 2;
@@ -336,7 +329,7 @@
     margin-top: 20px;
     margin-bottom: 4px;
 }
-.content-portfolio p {
+.content-items p {
     color: #757575;
     font-size: 16px;
     line-height: 1.88;
