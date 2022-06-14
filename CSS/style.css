@@ -310,7 +310,7 @@ img {
     color: var(--second-link-color);
 }
 
-.button-portfolio {
+.section .button-portfolio {
     display: flex;
     justify-content: center;
 
